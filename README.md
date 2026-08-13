@@ -18,6 +18,7 @@ Analizar las características de los clientes de un centro comercial para identi
 - Preparar los datos para el análisis.
 - Identificar patrones y grupos de clientes.
 - Utilizar técnicas de clustering para segmentar clientes.
+- Aplicar técnicas de reducción de dimensionalidad.
 - Representar visualmente los resultados.
 - Interpretar los segmentos obtenidos.
 
@@ -70,19 +71,48 @@ Se estudian las principales características de los clientes y las relaciones en
 
 Se aplican técnicas de clustering para identificar grupos de clientes con características similares.
 
-La segmentación permite analizar diferentes perfiles de comportamiento dentro del conjunto de datos.
+Se utiliza **DBSCAN** como técnica de agrupamiento para identificar estructuras y patrones dentro de los datos.
 
-### 5. Visualización
+### 5. Análisis de Componentes Principales
 
-Se utilizan gráficos para facilitar la identificación e interpretación de patrones y grupos de clientes.
+Se utiliza **PCA (Principal Component Analysis)** como técnica de reducción de dimensionalidad para facilitar la representación y análisis de los datos.
+
+### 6. Evaluación y visualización
+
+Los resultados obtenidos se representan mediante diferentes visualizaciones que permiten analizar:
+
+- Relaciones entre variables.
+- Componentes principales.
+- Distribución de los clientes por cluster.
+- Resultados de la segmentación mediante DBSCAN.
 
 ## Resultados
 
 El análisis permite identificar diferentes patrones entre las características de los clientes, especialmente en relación con sus ingresos anuales y puntuación de gasto.
 
-La segmentación permite agrupar clientes con características similares y facilita la interpretación de diferentes perfiles de comportamiento.
+La aplicación de técnicas de clustering permite identificar grupos de clientes con características similares, mientras que PCA facilita la representación de los datos en un espacio de menor dimensionalidad.
 
-Los resultados y visualizaciones detalladas pueden consultarse en el notebook del proyecto.
+Las visualizaciones generadas permiten interpretar los resultados de la segmentación y comprender mejor los diferentes perfiles presentes en el conjunto de datos.
+
+Los resultados detallados y el desarrollo completo del análisis pueden consultarse en el notebook del proyecto.
+
+## Visualizaciones
+
+### Matriz de correlación
+
+![Matriz de correlación](images/matriz_correlacion.png)
+
+### Análisis de Componentes Principales
+
+![Análisis de Componentes Principales](images/analisis_componentes_principales.png)
+
+### Número de puntos por cluster
+
+![Número de puntos por cluster](images/puntos_por_cluster.png)
+
+### Segmentación mediante DBSCAN
+
+![Segmentación mediante DBSCAN](images/dbscan_segmentacion_clientes.png)
 
 ## Tecnologías utilizadas
 
@@ -96,17 +126,18 @@ Los resultados y visualizaciones detalladas pueden consultarse en el notebook de
 
 ## Habilidades demostradas
 
--Análisis exploratorio de datos (EDA)
--Limpieza y preparación de datos
--Análisis de variables
--Visualización de datos
--Segmentación de clientes
--Machine Learning no supervisado
--Interpretación de resultados
--Python para análisis de datos
+- Análisis exploratorio de datos (EDA)
+- Limpieza y preparación de datos
+- Análisis de variables
+- Visualización de datos
+- Segmentación de clientes
+- Machine Learning no supervisado
+- Reducción de dimensionalidad
+- Interpretación de resultados
+- Python para análisis de datos
 
-## Autor
+## Autor 
 
-Sebastián Díaz
+Sebastian Diaz 
 
-Estudiante de Ingeniería de Sistemas
+Estudiante de ingenieria de sistemas 
