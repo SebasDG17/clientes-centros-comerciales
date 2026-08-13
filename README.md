@@ -26,4 +26,5 @@ El proyecto busca explorar los datos, identificar patrones y generar informació
 
 ## Autor
 Sebastián Díaz
+
 Estudiante de Ingeniería de Sistemas.
