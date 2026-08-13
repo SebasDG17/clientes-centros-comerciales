@@ -23,3 +23,7 @@ El proyecto busca explorar los datos, identificar patrones y generar informació
 - Matplotlib
 - Seaborn
 - Jupyter Notebook
+
+## Autor
+Sebastián Díaz
+Estudiante de Ingeniería de Sistemas.
