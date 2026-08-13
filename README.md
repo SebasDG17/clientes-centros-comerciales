@@ -105,7 +105,7 @@ Los resultados y visualizaciones detalladas pueden consultarse en el notebook de
 -Interpretación de resultados
 -Python para análisis de datos
 
-##Autor
+## Autor
 
 Sebastián Díaz
 
